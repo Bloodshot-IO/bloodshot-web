@@ -19,7 +19,6 @@ include 'includes/header.php';
             </div>
 
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-5 reveal delay-100">
-                Sitios web que <span class="text-brand-red">venden.</span><br>
                 Diseño estratégico para negocios modernos.
             </h1>
 
@@ -55,13 +54,11 @@ include 'includes/header.php';
             <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest whitespace-nowrap">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
-                <span class="mx-12">Gabrielo's Pizza</span>
                 <span class="mx-12">Boimsa</span>
             </div>
             <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest whitespace-nowrap">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
-                <span class="mx-12">Gabrielo's Pizza</span>
                 <span class="mx-12">Boimsa</span>
             </div>
         </div>
@@ -74,7 +71,7 @@ include 'includes/header.php';
                     <h2 class="text-4xl md:text-4xl font-bold mb-4 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]">
                         Soluciones de Negocio
                     </h2>
-                    <p class="text-gray-400 max-w-md">No solo entregamos "diseño", entregamos herramientas que hacen crecer tu facturación.</p>
+                    <p class="text-gray-400 max-w-md">No solo diseñamos, entregamos herramientas que hacen crecer tu facturación.</p>
                 </div>
                 
                 <div class="h-0.5 bg-gradient-to-r from-brand-red via-brand-red/60 to-transparent flex-grow ml-8 hidden md:block rounded-full shadow-[0_0_15px_rgba(220,38,38,0.5)]"></div>
