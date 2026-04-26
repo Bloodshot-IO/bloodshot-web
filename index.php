@@ -202,7 +202,7 @@ include 'includes/header.php';
                     <div class="relative group order-1 lg:order-2 max-w-lg mx-auto lg:ml-0 w-full"> 
                         <div class="absolute inset-0 bg-rose-500/20 blur-3xl opacity-20 rounded-full group-hover:opacity-30 transition-opacity"></div>
                         <div class="bg-gray-900 border border-white/10 rounded-2xl aspect-video overflow-hidden relative shadow-2xl">
-                            <img src="assets/img/nue.png" 
+                            <img src="assets/img/NUE_logo_main (1).png" 
                                  alt="Nue Lingerie Interfaz" 
                                  class="w-full h-full object-cover">
                         </div>
