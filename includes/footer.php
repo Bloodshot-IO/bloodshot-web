@@ -4,7 +4,7 @@
             <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
             <a href="#" class="hover:text-white transition-colors">Email</a>
         </div>
-        <p>&copy; <?php echo date('Y'); ?> NØWADAYS Studio. Monterrey, NL.</p>
+        <p>&copy; <?php echo date('Y'); ?> Bloodshot. Monterrey, NL.</p>
     </footer>
 
     <script>

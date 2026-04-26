@@ -2,7 +2,7 @@
 // send_mail.php
 
 // Configuración
-$to = "contacto@nowadays-studio.com"; 
+$to = "contacto@bloodshot.io"; 
 $subject_prefix = "[NUEVO LEAD WEB]";
 
 // Evitar acceso directo
@@ -34,7 +34,7 @@ $email_content .= "Mensaje:\n$message\n";
 $email_content .= "\n-------------------------\nEnviado desde el formulario web.";
 
 // Headers
-$headers = "From: contacto@nowadays-studio.com\r\n";
+$headers = "From: contacto@bloodshot.io\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 

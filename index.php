@@ -1,5 +1,5 @@
 <?php 
-$page_title = "NØWADAYS Studio | Sitios Web de Alto Rendimiento";
+$page_title = "Bloodshot | Sitios Web de Alto Rendimiento";
 include 'includes/header.php'; 
 ?>
 
@@ -272,7 +272,7 @@ include 'includes/header.php';
                 </h2>
                 
                 <p class="text-gray-400 leading-relaxed mb-8">
-                    En NØWADAYS Studio, no somos solo diseñadores. Somos consultores técnicos con una visión orientada a objetivos comerciales. 
+                    En Bloodshot, no somos solo diseñadores. Somos consultores técnicos con una visión orientada a objetivos comerciales. 
                     Entendemos que un sitio web es una inversión que debe generar retorno, ya sea en leads, ventas directas o posicionamiento de marca.
                 </p>
 

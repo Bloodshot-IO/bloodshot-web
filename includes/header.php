@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($page_title) ? $page_title : 'NØWADAYS Studio | Sitios Web de Alto Rendimiento'; ?></title>
+    <title><?php echo isset($page_title) ? $page_title : 'Bloodshot | Sitios Web de Alto Rendimiento'; ?></title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -43,7 +43,7 @@
         <div class="max-w-7xl mx-auto px-6 h-full flex items-center justify-center md:justify-between relative">
             
             <a href="index.php" class="text-2xl font-bold tracking-tighter hover:text-brand-red transition-colors flex items-center gap-1 group z-50">
-                NØWADAYS<span class="font-light text-gray-400 group-hover:text-white transition-colors">Studio</span>
+                Bloodshot<span class="font-light text-gray-400 group-hover:text-white transition-colors">.io</span>
                 <span class="w-1.5 h-1.5 rounded-full bg-brand-red ml-0.5 animate-pulse"></span>
             </a>
             
