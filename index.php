@@ -47,22 +47,34 @@ include 'includes/header.php';
     </section>
 
     <section class="border-y border-white/5 bg-brand-dark py-8 overflow-hidden relative">
-        <div class="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-brand-black to-transparent z-10"></div>
-        <div class="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-brand-black to-transparent z-10"></div>
-        
-        <div class="animate-marquee" style="width: max-content;">
-            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest whitespace-nowrap">
+    <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-brand-black to-transparent z-20 pointer-events-none"></div>
+    <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-brand-black to-transparent z-20 pointer-events-none"></div>
+    
+    <div class="flex overflow-hidden">
+        <div class="animate-marquee flex whitespace-nowrap">
+            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
                 <span class="mx-12">Boimsa</span>
             </div>
-            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest whitespace-nowrap">
+            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
+                <span class="mx-12">Botanero Limón</span>
+                <span class="mx-12">Nue Lingerie</span>
+                <span class="mx-12">Boimsa</span>
+            </div>
+            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
+                <span class="mx-12">Botanero Limón</span>
+                <span class="mx-12">Nue Lingerie</span>
+                <span class="mx-12">Boimsa</span>
+            </div>
+            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
                 <span class="mx-12">Boimsa</span>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="servicios" class="py-24 px-6 relative">
         <div class="max-w-7xl mx-auto">
