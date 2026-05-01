@@ -15,6 +15,8 @@
 
     <script src="https://unpkg.com/lucide@latest"></script>
 
+    <link rel="icon" type="image/png" href="img/bloodshot.png">
+
     <script>
         tailwind.config = {
             theme: {
