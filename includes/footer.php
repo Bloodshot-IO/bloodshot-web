@@ -1,8 +1,8 @@
 <footer class="py-8 bg-black text-center text-gray-600 text-sm border-t border-white/5">
         <div class="flex justify-center gap-6 mb-4">
-            <a href="#" class="hover:text-white transition-colors">Instagram</a>
+            <a href="https://www.instagram.com/bloodshot.io/" class="hover:text-white transition-colors">Instagram</a>
             <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
-            <a href="#" class="hover:text-white transition-colors">Email</a>
+            <a href="https://www.facebook.com/profile.php?id=61588946308146&locale=es_LA" class="hover:text-white transition-colors">Facebook</a>
         </div>
         <p>&copy; <?php echo date('Y'); ?> Bloodshot. Monterrey, NL.</p>
     </footer>
