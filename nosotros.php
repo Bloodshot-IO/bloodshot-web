@@ -16,7 +16,7 @@ include 'includes/header.php';
         </div>
         <div class="relative reveal delay-200">
             <div class="aspect-square rounded-2xl overflow-hidden border border-white/10 relative">
-                <img src="assets/img/workspace.jpg" alt="Bloodshot Studio" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                <img src="assets/img/bloodshot.png" alt="Bloodshot Studio" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
             </div>
             <div class="absolute -bottom-6 -left-6 bg-brand-red p-6 rounded-xl shadow-2xl hidden md:block">
