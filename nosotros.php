@@ -20,7 +20,7 @@ include 'includes/header.php';
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
             </div>
             <div class="absolute -bottom-6 -left-6 bg-brand-red p-6 rounded-xl shadow-2xl hidden md:block">
-                <p class="text-white font-bold text-2xl tracking-tighter">MTY, MX</p>
+                <p class="text-white font-bold text-2xl tracking-tighter">Monterrey, MX</p>
                 <p class="text-white/80 text-xs uppercase font-medium">Sede Central</p>
             </div>
         </div>
