@@ -16,7 +16,7 @@ include 'includes/header.php';
         </div>
         <div class="relative reveal delay-200">
             <div class="aspect-square rounded-2xl overflow-hidden border border-white/10 relative">
-                <img src="assets/img/workspace.jpg" alt="Bloodshot Studio" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                <img src="assets/img/bloodshot.png" alt="Bloodshot Studio" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
             </div>
             <div class="absolute -bottom-6 -left-6 bg-brand-red p-6 rounded-xl shadow-2xl hidden md:block">
@@ -74,9 +74,9 @@ include 'includes/header.php';
 <section class="py-20 px-6">
     <div class="max-w-5xl mx-auto bg-gradient-to-br from-brand-red to-red-900 rounded-[2rem] p-12 text-center reveal">
         <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 italic">¿Quieres dar el siguiente paso?</h2>
-        <p class="text-white/80 mb-10 text-lg">Estamos listos para el siguiente reto técnico.</p>
+        <p class="text-white/80 mb-10 text-lg">Queremos acompañarte</p>
         <a href="index.php#contacto" class="px-10 py-4 bg-white text-brand-red rounded-full font-extrabold hover:bg-black hover:text-white transition-all shadow-xl">
-            Agendar Consultoría
+            Comenzar proyecto
         </a>
     </div>
 </section>
