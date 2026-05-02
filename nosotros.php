@@ -74,7 +74,7 @@ include 'includes/header.php';
 </section>
 <section class="py-20 px-6">
     <div class="max-w-5xl mx-auto bg-gradient-to-br from-brand-red to-red-900 rounded-[2rem] p-12 text-center reveal">
-        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 italic">¿Hacemos algo legendario?</h2>
+        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 italic">¿Quieres dar el siguiente paso?</h2>
         <p class="text-white/80 mb-10 text-lg">Estamos listos para el siguiente reto técnico.</p>
         <a href="index.php#contacto" class="px-10 py-4 bg-white text-brand-red rounded-full font-extrabold hover:bg-black hover:text-white transition-all shadow-xl">
             Agendar Consultoría
