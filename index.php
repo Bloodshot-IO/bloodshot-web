@@ -3,7 +3,7 @@ $page_title = "Bloodshot | Sitios Web de Alto Rendimiento";
 include 'includes/header.php'; 
 ?>
 
-    <section class="relative pt-40 pb-8 md:pt-32 md:pb-12 px-6 overflow-hidden">
+    <section class="relative pt-44 pb-10 md:pt-40 md:pb-16 px-6 overflow-hidden">
         <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-red rounded-full filter blur-[180px] opacity-[0.08] animate-pulse"></div>
         
         <div class="max-w-4xl mx-auto text-center relative z-10">
@@ -300,8 +300,8 @@ include 'includes/header.php';
                     </div>
                 </div>
                 
-                <div class="flex flex-col sm:flex-row gap-8 sm:items-center border-t border-white/5 pt-8 mt-auto md:mt-0">
-                    <div class="flex gap-8">
+                <div class="flex flex-col sm:flex-row gap-8 sm:items-center border-t border-white/5 pt-8 mt-auto md:mt-0 w-full">
+                    <div class="flex gap-8 shrink-0">
                         <div>
                             <span class="block text-3xl font-bold text-white mb-0.5">+2</span>
                             <span class="text-xs text-gray-500 uppercase tracking-wide">Años Exp.</span>
@@ -312,9 +312,9 @@ include 'includes/header.php';
                         </div>
                     </div>
                     
-                    <a href="/nosotros" class="px-6 py-3 bg-brand-red text-white rounded-full font-bold hover:bg-red-700 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] group">
+                    <a href="/nosotros" class="px-6 py-3 sm:py-4 bg-brand-red text-white rounded-full font-bold hover:bg-red-700 transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] group w-full sm:flex-1">
                         ¡Conócenos!
-                        <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                        <i data-lucide="arrow-right" class="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
             </div>
