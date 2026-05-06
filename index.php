@@ -312,7 +312,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                     
-                    <a href="nosotros.php" class="px-6 py-3 bg-brand-red text-white rounded-full font-bold hover:bg-red-700 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] group">
+                    <a href="/nosotros" class="px-6 py-3 bg-brand-red text-white rounded-full font-bold hover:bg-red-700 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] group">
                         ¡Conócenos!
                         <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
                     </a>

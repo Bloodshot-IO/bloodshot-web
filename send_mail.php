@@ -7,7 +7,7 @@ $subject_prefix = "[NUEVO LEAD WEB]";
 
 // Evitar acceso directo
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
-    header("Location: index.php");
+    header("Location: /inicio");
     exit;
 }
 
@@ -19,7 +19,7 @@ $message = strip_tags(trim($_POST["message"] ?? ''));
 
 // 2. Validación estricta
 if (empty($name) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    header("Location: index.php?status=error_validation");
+    header("Location: /inicio?status=error_validation");
     exit;
 }
 
@@ -44,7 +44,7 @@ $sent = @mail($to, $subject, $email_content, $headers);
 
 if ($sent) {
     // Éxito real (En producción/Hostinger)
-    header("Location: index.php?status=success");
+    header("Location: /inicio?status=success");
 } else {
     // Fallo en el envío.
     
@@ -55,10 +55,10 @@ if ($sent) {
     
     if ($is_localhost) {
         // Simulamos éxito solo para pruebas de interfaz
-        header("Location: index.php?status=success&mode=dev_simulation"); 
+        header("Location: /inicio?status=success&mode=dev_simulation"); 
     } else {
         // Si falla en producción, mostramos error real
-        header("Location: index.php?status=error_server"); 
+        header("Location: /inicio?status=error_server"); 
     }
 }
 exit;
