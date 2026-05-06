@@ -3,7 +3,7 @@ $page_title = "Bloodshot | Sitios Web de Alto Rendimiento";
 include 'includes/header.php'; 
 ?>
 
-    <section class="relative pt-40 pb-8 md:pt-32 md:pb-12 px-6 overflow-hidden">
+    <section class="relative pt-44 pb-10 md:pt-40 md:pb-16 px-6 overflow-hidden">
         <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-red rounded-full filter blur-[180px] opacity-[0.08] animate-pulse"></div>
         
         <div class="max-w-4xl mx-auto text-center relative z-10">
@@ -15,11 +15,11 @@ include 'includes/header.php';
                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
                 </div>
-                <span class="text-sm font-medium text-gray-400">Excelencia en Diseño & Desarrollo</span>
+                <span class="text-sm font-medium text-gray-400">Excelencia en diseño y desarrollo</span>
             </div>
 
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-5 reveal delay-100">
-                Diseño estratégico para negocios modernos.
+                Diseño web para negocios modernos.
             </h1>
 
             <p class="text-base md:text-lg text-gray-400 max-w-2xl mx-auto mb-6 leading-relaxed reveal delay-200">
@@ -76,27 +76,29 @@ include 'includes/header.php';
     </div>
 </section>
 
-    <section id="servicios" class="py-24 px-6 relative">
+    <section id="servicios" class="py-16 md:py-24 px-6 relative">
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-center mb-16 gap-6 reveal">
-                <div>
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left mb-16 md:mb-24 gap-6 reveal">
+                <div class="w-full md:w-auto">
                     <h2 class="text-4xl md:text-4xl font-bold mb-4 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]">
                         Soluciones de Negocio
                     </h2>
-                    <p class="text-gray-400 max-w-md">No solo diseñamos, entregamos herramientas que hacen crecer tu facturación.</p>
+                    <p class="text-gray-400 max-w-md mx-auto md:mx-0">No solo diseñamos, entregamos herramientas que hacen crecer tu facturación.</p>
                 </div>
                 
                 <div class="h-0.5 bg-gradient-to-r from-brand-red via-brand-red/60 to-transparent flex-grow ml-8 hidden md:block rounded-full shadow-[0_0_15px_rgba(220,38,38,0.5)]"></div>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                 <div class="reveal delay-100 h-full">
-                    <div class="group bg-brand-gray border border-white/5 p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
-                        <div class="w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center mb-6 text-brand-red group-hover:scale-110 transition-transform">
-                            <i data-lucide="layout-template" class="w-6 h-6"></i>
+                    <div class="group bg-brand-gray border border-white/5 p-6 md:p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
+                        <div class="flex items-center md:items-start md:flex-col gap-4 md:gap-0 mb-4 md:mb-0">
+                            <div class="shrink-0 w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center md:mb-6 text-brand-red group-hover:scale-110 transition-transform">
+                                <i data-lucide="layout-template" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-0 md:mb-3">Diseño Web</h3>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Diseño Web</h3>
-                        <p class="text-sm text-gray-400 mb-6 leading-relaxed">Páginas diseñadas para mostrar al mundo la esencia de su empresa. Eliminamos fricción y maximizamos la retención visual.</p>
+                        <p class="text-sm text-gray-400 mb-4 md:mb-6 leading-relaxed">Páginas diseñadas para mostrar al mundo la esencia de su empresa. Eliminamos fricción y maximizamos la retención visual.</p>
                         <ul class="text-sm text-gray-500 space-y-2">
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Excelente diseño móvil</li>
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Profesionalidad digital</li>
@@ -104,12 +106,14 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="reveal delay-200 h-full">
-                    <div class="group bg-brand-gray border border-white/5 p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
-                        <div class="w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center mb-6 text-brand-red group-hover:scale-110 transition-transform">
-                            <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+                    <div class="group bg-brand-gray border border-white/5 p-6 md:p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
+                        <div class="flex items-center md:items-start md:flex-col gap-4 md:gap-0 mb-4 md:mb-0">
+                            <div class="shrink-0 w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center md:mb-6 text-brand-red group-hover:scale-110 transition-transform">
+                                <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-0 md:mb-3">E-Commerce Escalable</h3>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">E-Commerce Escalable</h3>
-                        <p class="text-sm text-gray-400 mb-6 leading-relaxed">Tiendas diseñadas para guiar al usuario hacia la compra. Gestión óptima de inventario y formas de pago seguras.</p>
+                        <p class="text-sm text-gray-400 mb-4 md:mb-6 leading-relaxed">Tiendas diseñadas para guiar al usuario hacia la compra. Gestión óptima de inventario y formas de pago seguras.</p>
                         <ul class="text-sm text-gray-500 space-y-2">
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Integración de pasarelas de pago</li>
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Alta conversión de ventas</li>
@@ -117,12 +121,14 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="reveal delay-300 h-full">
-                    <div class="group bg-brand-gray border border-white/5 p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
-                        <div class="w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center mb-6 text-brand-red group-hover:scale-110 transition-transform">
-                            <i data-lucide="code-2" class="w-6 h-6"></i>
+                    <div class="group bg-brand-gray border border-white/5 p-6 md:p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
+                        <div class="flex items-center md:items-start md:flex-col gap-4 md:gap-0 mb-4 md:mb-0">
+                            <div class="shrink-0 w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center md:mb-6 text-brand-red group-hover:scale-110 transition-transform">
+                                <i data-lucide="code-2" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-0 md:mb-3">Desarrollo a Medida</h3>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Desarrollo a Medida</h3>
-                        <p class="text-sm text-gray-400 mb-6 leading-relaxed">Programación web desde cero. Funcionalidad avanzada, automatización y sistemas de gestión interna.</p>
+                        <p class="text-sm text-gray-400 mb-4 md:mb-6 leading-relaxed">Programación web desde cero. Funcionalidad avanzada, automatización y sistemas de gestión interna.</p>
                         <ul class="text-sm text-gray-500 space-y-2">
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Programación a la medida</li>
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Gestión de usuarios y contraseñas</li>
@@ -130,12 +136,14 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="reveal delay-400 h-full">
-                    <div class="group bg-brand-gray border border-white/5 p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
-                        <div class="w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center mb-6 text-brand-red group-hover:scale-110 transition-transform">
-                            <i data-lucide="mail" class="w-6 h-6"></i>
+                    <div class="group bg-brand-gray border border-white/5 p-6 md:p-8 rounded-2xl hover:border-brand-red/50 transition-colors duration-300 h-full">
+                        <div class="flex items-center md:items-start md:flex-col gap-4 md:gap-0 mb-4 md:mb-0">
+                            <div class="shrink-0 w-12 h-12 bg-black rounded-lg border border-white/10 flex items-center justify-center md:mb-6 text-brand-red group-hover:scale-110 transition-transform">
+                                <i data-lucide="mail" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-0 md:mb-3">Correo Empresarial</h3>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Correo Empresarial</h3>
-                        <p class="text-sm text-gray-400 mb-6 leading-relaxed">Proyecta confianza inmediata con direcciones de correo electrónico personalizadas (@tuempresa.com).</p>
+                        <p class="text-sm text-gray-400 mb-4 md:mb-6 leading-relaxed">Proyecta confianza inmediata con direcciones de correo electrónico personalizadas (@tuempresa.com).</p>
                         <ul class="text-sm text-gray-500 space-y-2">
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Dominio propio</li>
                             <li class="flex gap-2 items-center"><span class="w-1 h-1 bg-brand-red rounded-full"></span>Asesoría para migración</li>
@@ -146,7 +154,7 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <section id="proyectos" class="py-16 bg-brand-dark px-6 border-y border-white/5">
+    <section id="proyectos" class="py-16 md:py-24 bg-brand-dark px-6 border-y border-white/5">
         <div class="max-w-7xl mx-auto">
             
             <div class="mb-12 text-center reveal"> 
@@ -273,7 +281,7 @@ include 'includes/header.php';
     <section class="py-16 bg-brand-gray border-y border-white/5 px-6">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-stretch">
             
-            <div class="reveal h-full flex flex-col justify-center">
+            <div class="reveal h-full flex flex-col justify-center text-center md:text-left">
                 <span class="text-brand-red font-bold text-sm uppercase mb-2 block">Sobre Nosotros</span>
                 
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]">
@@ -286,35 +294,35 @@ include 'includes/header.php';
                 </p>
 
                 <div class="mb-10">
-                    <h4 class="text-white font-bold text-sm mb-4 flex items-center gap-2">
+                    <h4 class="text-white font-bold text-sm mb-4 flex items-center justify-center md:justify-start gap-2">
                         <i data-lucide="cpu" class="w-4 h-4 text-brand-red"></i>
                         Nuestro Arsenal Digital
                     </h4>
-                    <div class="flex flex-wrap gap-2">
+                    <div class="flex flex-wrap justify-center md:justify-start gap-2">
                         <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">Wordpress / Elementor</span>
                         <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">Python / Django</span>
                         <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">Google Analytics</span>
                         <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">Shopify</span>
-                        <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">SQL</span>
+                        <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">PHP</span>
                         <span class="px-3 py-1.5 bg-black border border-white/10 rounded-md text-xs font-medium text-gray-300">IA</span>
                     </div>
                 </div>
                 
-                <div class="flex flex-col sm:flex-row gap-8 sm:items-center border-t border-white/5 pt-8 mt-auto md:mt-0">
-                    <div class="flex gap-8">
-                        <div>
+                <div class="flex flex-col sm:flex-row gap-8 sm:items-center border-t border-white/5 pt-8 mt-auto md:mt-0 w-full">
+                    <div class="flex justify-center sm:justify-start gap-8 shrink-0">
+                        <div class="text-center sm:text-left">
                             <span class="block text-3xl font-bold text-white mb-0.5">+2</span>
                             <span class="text-xs text-gray-500 uppercase tracking-wide">Años Exp.</span>
                         </div>
-                        <div>
+                        <div class="text-center sm:text-left">
                             <span class="block text-3xl font-bold text-white mb-0.5">Top 1%</span>
                             <span class="text-xs text-gray-500 uppercase tracking-wide">Talento Tech</span>
                         </div>
                     </div>
                     
-                    <a href="/nosotros" class="px-6 py-3 bg-brand-red text-white rounded-full font-bold hover:bg-red-700 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] group">
+                    <a href="/nosotros" class="px-6 py-3 sm:py-4 bg-brand-red text-white rounded-full font-bold hover:bg-red-700 transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] group w-full sm:flex-1">
                         ¡Conócenos!
-                        <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                        <i data-lucide="arrow-right" class="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
             </div>
