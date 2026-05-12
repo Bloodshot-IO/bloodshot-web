@@ -50,7 +50,7 @@
             </a>
             
             <div class="hidden md:flex space-x-8 text-sm font-medium items-center">
-                <a href="proyectos" class="text-gray-400 hover:text-brand-red transition-colors">Proyectos</a>
+                <a href="inicio#proyectos" class="text-gray-400 hover:text-brand-red transition-colors">Proyectos</a>
                 
                 <div class="relative group h-full flex items-center">
                     <button class="text-gray-400 group-hover:text-brand-red transition-colors flex items-center gap-1">
