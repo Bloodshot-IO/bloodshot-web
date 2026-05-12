@@ -56,7 +56,7 @@ include 'includes/header.php';
             <div class="lg:col-span-2 reveal">
                 <h2 class="text-4xl font-bold text-white mb-6">Por qué Monterrey confía en nosotros.</h2>
                 <p class="text-gray-400 mb-8">No somos una agencia de volumen, somos una boutique de calidad. Atendemos pocos proyectos al mes para asegurar que cada línea de código sea perfecta.</p>
-                <a href="/proyectos" class="inline-flex items-center gap-2 text-brand-red font-bold hover:underline transition-all">
+                <a href="inicio#proyectos" class="inline-flex items-center gap-2 text-brand-red font-bold hover:underline transition-all">
                     Ver nuestra trayectoria <i data-lucide="arrow-right" class="w-5 h-5"></i>
                 </a>
             </div>
