@@ -449,7 +449,7 @@ include 'includes/header.php';
                                 <option value="Landing Page">Web Express / Landing Page</option>
                                 <option value="E-commerce">E-commerce / Tienda Online</option>
                                 <option value="Web Profesional">Página web profesional</option>
-                                <option value="Desarrollo a Medida">Desarrollo web a la Medida</option>
+                                <option value="Desarrollo a Medida">Desarrollo web personalizado</option>
                                 <option value="Correos">Correos empresariales</option>
                                 <option value="Consultoria">Consultoría / Auditoría</option>
                             </select>
