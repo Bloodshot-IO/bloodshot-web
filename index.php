@@ -373,7 +373,7 @@ include 'includes/header.php';
                     </summary>
                     <div class="px-8 pb-8 text-gray-400 text-base leading-relaxed pl-8">
                         <div class="border-l-2 border-brand-red/50 pl-6"> 
-                            <p>Nuestros planes inician desde <strong>$3,000 MXN</strong> para Landing Pages (Web Express) hasta <strong>$6,000 MXN</strong> para sitios profesionales completos. Si tu empresa tiene necesidades más avanzadas, tenemos cotizaciones a la medida para tí.</p>
+                            <p>Nuestros planes inician desde <strong>$3,199 MXN</strong> para Landing Pages (Web Express) hasta <strong>$6,499 MXN</strong> para sitios profesionales completos. Si tu empresa tiene necesidades más avanzadas, tenemos cotizaciones a la medida para tí.</p>
                             <p class="mt-2 text-sm text-gray-500">Nota: No tenemos costos ocultos ni letras chiquitas.</p>
                         </div>
                     </div>
