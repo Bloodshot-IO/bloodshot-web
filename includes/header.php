@@ -78,7 +78,7 @@
     <nav id="mobile-subnav" class="md:hidden fixed top-20 w-full z-40 bg-brand-dark/95 border-b border-white/5 backdrop-blur-md transition-all duration-500 ease-in-out flex flex-col">
         
         <div class="flex justify-around items-center h-12 px-4 text-xs font-medium uppercase tracking-wider text-gray-400">
-            <a href="proyectos" class="hover:text-white transition-colors py-2 w-full text-center">Proyectos</a>
+            <a href="inicio#proyectos" class="hover:text-white transition-colors py-2 w-full text-center">Proyectos</a>
             <div class="w-px h-3 bg-white/10 shrink-0"></div>
             
             <button id="mobile-services-btn" class="hover:text-white transition-colors py-2 w-full flex items-center justify-center gap-1 outline-none text-xs font-medium uppercase tracking-wider">
