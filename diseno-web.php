@@ -49,15 +49,15 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
+                        <span>Botones CTA y WhatsApp directo.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
                         <span>1 Formulario de contacto y 1 Mapa.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
                         <span>Entrega rápida: 2 a 3 semanas.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Incluye Copywriting y asesoría de dominio.</span>
                     </li>
                 </ul>
 
@@ -127,11 +127,11 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Sistemas de control de usuarios y accesos.</span>
+                        <span>Sistema de control de usuarios y accesos.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Desarrollo de funcionalidades específicas a definir.</span>
+                        <span>Desarrollo de funcionalidades específicas.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
