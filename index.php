@@ -417,6 +417,9 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <?php
+    $servicio_url = isset($_GET['servicio']) ? $_GET['servicio'] : '';
+    ?>
     <section id="contacto" class="py-24 px-6 relative bg-black overflow-hidden border-t border-brand-red">
         <div class="absolute inset-0 bg-brand-red/10 animate-pulse"></div>
         <div class="max-w-4xl mx-auto relative z-10 text-center bg-brand-dark/80 backdrop-blur-xl p-8 md:p-16 rounded-3xl border border-white/10 shadow-2xl">
@@ -445,13 +448,18 @@ include 'includes/header.php';
                         <div class="relative">
                             <select name="service" id="service" required
                                     class="w-full bg-black border border-white/20 rounded-lg px-4 py-3 text-white focus:border-brand-red focus:ring-1 focus:ring-brand-red outline-none transition-all appearance-none cursor-pointer">
-                                <option value="" disabled selected>Selecciona una solución</option>
-                                <option value="Landing Page">Web Express / Landing Page</option>
-                                <option value="E-commerce">E-commerce / Tienda Online</option>
-                                <option value="Web Profesional">Página web profesional</option>
-                                <option value="Desarrollo a Medida">Desarrollo web personalizado</option>
-                                <option value="Correos">Correos empresariales</option>
-                                <option value="Consultoria">Consultoría / Auditoría</option>
+                                
+                                <option value="" disabled <?php echo ($servicio_url == '') ? 'selected' : ''; ?>>Selecciona una solución</option>
+                                
+                                <option value="Landing Page" <?php echo ($servicio_url == 'Landing Page') ? 'selected' : ''; ?>>Web Express / Landing Page</option>
+                                <option value="Web Profesional" <?php echo ($servicio_url == 'Web Profesional') ? 'selected' : ''; ?>>Página web profesional</option>
+                                <option value="Desarrollo a Medida" <?php echo ($servicio_url == 'Desarrollo a Medida') ? 'selected' : ''; ?>>Desarrollo web personalizado</option>
+                                <option value="E-commerce Starter" <?php echo ($servicio_url == 'E-commerce Starter') ? 'selected' : ''; ?>>E-commerce / Plan Starter</option>
+                                <option value="E-commerce Clasico" <?php echo ($servicio_url == 'E-commerce Clasico') ? 'selected' : ''; ?>>E-commerce / Plan Clásico</option>
+                                <option value="E-commerce Avanzado" <?php echo ($servicio_url == 'E-commerce Avanzado') ? 'selected' : ''; ?>>E-commerce / Plan Avanzado</option>
+                                <option value="Correos" <?php echo ($servicio_url == 'Correos') ? 'selected' : ''; ?>>Correos empresariales</option>
+                                <option value="Consultoria" <?php echo ($servicio_url == 'Consultoria') ? 'selected' : ''; ?>>Consultoría / Auditoría</option>
+                                
                             </select>
                             <div class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none text-gray-500">
                                 <i data-lucide="chevron-down" class="w-4 h-4"></i>
