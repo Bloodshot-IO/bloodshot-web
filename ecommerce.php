@@ -65,7 +65,7 @@ include 'includes/header.php';
                     </li>
                 </ul>
 
-                <a href="contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
+                <a href="index.php#contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
                     Seleccionar Starter
                 </a>
             </div>
@@ -112,7 +112,7 @@ include 'includes/header.php';
                     </li>
                 </ul>
 
-                <a href="contacto" class="w-full py-4 text-center bg-brand-red rounded-xl text-white font-bold hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(220,38,38,0.4)] block mt-auto">
+                <a href="index.php#contacto" class="w-full py-4 text-center bg-brand-red rounded-xl text-white font-bold hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(220,38,38,0.4)] block mt-auto">
                     Seleccionar Clásico
                 </a>
             </div>
@@ -155,7 +155,7 @@ include 'includes/header.php';
                     </li>
                 </ul>
 
-                <a href="contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
+                <a href="index.php#contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
                     Seleccionar Avanzado
                 </a>
             </div>
