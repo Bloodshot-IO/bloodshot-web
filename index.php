@@ -457,7 +457,11 @@ include 'includes/header.php';
                                 <option value="E-commerce Starter" <?php echo ($servicio_url == 'E-commerce Starter') ? 'selected' : ''; ?>>E-commerce / Plan Starter</option>
                                 <option value="E-commerce Clasico" <?php echo ($servicio_url == 'E-commerce Clasico') ? 'selected' : ''; ?>>E-commerce / Plan Clásico</option>
                                 <option value="E-commerce Avanzado" <?php echo ($servicio_url == 'E-commerce Avanzado') ? 'selected' : ''; ?>>E-commerce / Plan Avanzado</option>
-                                <option value="Correos" <?php echo ($servicio_url == 'Correos') ? 'selected' : ''; ?>>Correos empresariales</option>
+                                
+                                <option value="Correo Esencial" <?php echo ($servicio_url == 'Correo Esencial') ? 'selected' : ''; ?>>Correo Empresarial / Plan Esencial</option>
+                                <option value="Correo Crecimiento" <?php echo ($servicio_url == 'Correo Crecimiento') ? 'selected' : ''; ?>>Correo Empresarial / Plan Crecimiento</option>
+                                <option value="Correo Corporativo" <?php echo ($servicio_url == 'Correo Corporativo') ? 'selected' : ''; ?>>Correo Empresarial / Plan Corporativo</option>
+                                
                                 <option value="Consultoria" <?php echo ($servicio_url == 'Consultoria') ? 'selected' : ''; ?>>Consultoría / Auditoría</option>
                                 
                             </select>
