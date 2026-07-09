@@ -13,7 +13,7 @@ include 'includes/header.php';
         </div>
 
         <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 reveal delay-100 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
-            Proyecta confianza en cada mensaje.
+            Proyecta confianza en cada message.
         </h1>
 
         <p class="text-base md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed reveal delay-200">
@@ -27,6 +27,7 @@ include 'includes/header.php';
         
         <div class="grid lg:grid-cols-3 gap-8 items-stretch">
             
+            <!-- PLAN ESENCIAL -->
             <div class="reveal delay-100 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
                 <div class="mb-8">
                     <h3 class="text-2xl font-bold text-white mb-2">Esencial</h3>
@@ -34,8 +35,8 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$850</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Tarifa única de configuración</p>
+                    <span class="text-4xl font-extrabold text-white">$200</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <p class="text-brand-red text-sm font-bold mt-2">Mantenimiento mensual (Retainer)</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
@@ -66,6 +67,7 @@ include 'includes/header.php';
                 </a>
             </div>
 
+            <!-- PLAN CRECIMIENTO -->
             <div class="reveal delay-200 flex flex-col h-full bg-brand-gray border-2 border-brand-red rounded-3xl p-8 relative transform md:-translate-y-4 shadow-[0_0_40px_rgba(220,38,38,0.15)] z-10">
                 <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-red text-white text-xs font-black uppercase tracking-widest py-1.5 px-4 rounded-full">
                     El más elegido
@@ -77,8 +79,8 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$1,200</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Tarifa única de configuración</p>
+                    <span class="text-4xl font-extrabold text-white">$400</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <p class="text-brand-red text-sm font-bold mt-2">Mantenimiento mensual (Retainer)</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
@@ -88,15 +90,15 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>20 GB de almacenamiento real y dedicado por cuenta.</span>
+                        <span>10 GB de almacenamiento real y dedicado por cuenta.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Inteligencia Artificial para redacción de correos.</span>
+                        <span>50 confirmaciones de lectura al mes para rastreo de envíos.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Rastreo avanzado de lectura y aperturas.</span>
+                        <span>Hasta 3 plantillas de email nativas para respuestas rápidas.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
@@ -109,6 +111,7 @@ include 'includes/header.php';
                 </a>
             </div>
 
+            <!-- PLAN CORPORATIVO -->
             <div class="reveal delay-300 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
                 <div class="mb-8">
                     <h3 class="text-2xl font-bold text-white mb-2">Corporativo</h3>
@@ -116,8 +119,8 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$1,500</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Tarifa única de configuración</p>
+                    <span class="text-4xl font-extrabold text-white">$250</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <p class="text-brand-red text-sm font-bold mt-2">Mantenimiento mensual por usuario</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
@@ -150,8 +153,9 @@ include 'includes/header.php';
 
         </div>
         
+        <!-- TEXTO LEGAL INFERIOR ACTUALIZADO -->
         <div class="mt-16 text-center text-sm text-gray-500">
-            <p>El alta de cada paquete requiere de un pago de configuración única (Setup Fee). Adicionalmente, el servicio requiere un depósito mensual de mantenimiento de infraestructura (<span class="text-gray-300 font-bold">$199 MXN</span> Esencial, <span class="text-gray-300 font-bold">$399 MXN</span> Crecimiento, o <span class="text-gray-300 font-bold">$249 MXN / Usuario</span> Corporativo).</p>
+            <p>Los precios mostrados corresponden al depósito de mantenimiento mensual de infraestructura (retainer). Adicionalmente, el inicio de cada proyecto requiere cubrir una tarifa única de configuración inicial (<span class="text-gray-300 font-bold">$850 MXN</span> Esencial, <span class="text-gray-300 font-bold">$1,200 MXN</span> Crecimiento, o <span class="text-gray-300 font-bold">$1,500 MXN</span> Corporativo).</p>
         </div>
         
     </div>
