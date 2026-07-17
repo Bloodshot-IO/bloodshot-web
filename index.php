@@ -56,21 +56,25 @@ include 'includes/header.php';
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
                 <span class="mx-12">Boimsa</span>
+                <span class="mx-12">Gabrielo's Pizza</span>
             </div>
             <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
                 <span class="mx-12">Boimsa</span>
+                <span class="mx-12">Gabrielo's Pizza</span>
             </div>
             <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
                 <span class="mx-12">Boimsa</span>
+                <span class="mx-12">Gabrielo's Pizza</span>
             </div>
             <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
                 <span class="mx-12">Botanero Limón</span>
                 <span class="mx-12">Nue Lingerie</span>
                 <span class="mx-12">Boimsa</span>
+                <span class="mx-12">Gabrielo's Pizza</span>
             </div>
         </div>
     </div>
@@ -219,13 +223,43 @@ include 'includes/header.php';
                         </a>
                     </div>
                     
-                    <div class="relative group order-1 lg:order-2 max-w-lg mx-auto lg:ml-0 w-full"> 
+                    <div class="relative group order-1 lg:order-2 max-w-lg mx-auto lg:ml-0 w-full">
                         <div class="absolute inset-0 bg-rose-500/20 blur-3xl opacity-20 rounded-full group-hover:opacity-30 transition-opacity"></div>
                         <div class="bg-gray-900 border border-white/10 rounded-2xl aspect-video overflow-hidden relative shadow-2xl">
-                            <img src="assets/img/nue.jpg" 
-                                 alt="Nue Lingerie Interfaz" 
+                            <img src="assets/img/nue.jpg"
+                                 alt="Nue Lingerie Interfaz"
                                  class="w-full h-full object-cover">
                         </div>
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="relative group max-w-lg mx-auto lg:mr-0 w-full">
+                        <div class="absolute inset-0 bg-yellow-500/20 blur-3xl opacity-20 rounded-full group-hover:opacity-30 transition-opacity"></div>
+                        <div class="bg-gray-900 border border-white/10 rounded-2xl aspect-video overflow-hidden relative shadow-2xl">
+                            <img src="assets/img/gabrielos.jpg"
+                                 alt="Gabrielo's Pizza Interfaz"
+                                 class="w-full h-full object-cover">
+                        </div>
+                    </div>
+
+                    <div class="space-y-6 max-w-lg mx-auto lg:ml-0 w-full text-center lg:text-left">
+                        <div>
+                            <h3 class="text-3xl font-bold mb-3">Gabrielo's Pizza</h3>
+                            <p class="text-gray-400 leading-relaxed mb-6">Menú digital completamente interactivo que sustituyó las cartas físicas impresas, reduciendo en un 75% los costos de actualización cada vez que cambian precios o platillos.</p>
+
+                            <div class="flex flex-wrap gap-3 justify-center lg:justify-start">
+                                <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-bold text-gray-300">UI/UX</span>
+                                <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-bold text-gray-300">PHP</span>
+                                <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-bold text-gray-300">SEO Local</span>
+                                <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-bold text-gray-300">CTAs</span>
+                            </div>
+                        </div>
+
+                        <a href="https://gabrielospizza.com/" target="_blank" class="inline-flex items-center text-white font-bold hover:text-brand-red transition-colors group">
+                            Visitar Sitio Web
+                            <i data-lucide="external-link" class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
                     </div>
                 </div>
 
