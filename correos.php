@@ -36,7 +36,7 @@ include 'includes/header.php';
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
                     <span class="text-4xl font-extrabold text-white">$200</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Mantenimiento mensual (Retainer)</p>
+                    <p class="text-brand-red text-sm font-bold mt-2">Por mes</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
@@ -80,7 +80,7 @@ include 'includes/header.php';
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
                     <span class="text-4xl font-extrabold text-white">$400</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Mantenimiento mensual (Retainer)</p>
+                    <p class="text-brand-red text-sm font-bold mt-2">Por mes</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
@@ -120,7 +120,7 @@ include 'includes/header.php';
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
                     <span class="text-4xl font-extrabold text-white">$250</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Mantenimiento mensual por usuario</p>
+                    <p class="text-brand-red text-sm font-bold mt-2">Al mes por usuario</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
