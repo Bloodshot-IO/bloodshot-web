@@ -15,7 +15,7 @@ include 'includes/header.php';
                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
                 </div>
-                <span class="text-sm font-medium text-gray-400">Excelencia en Diseño y desarrollo</span>
+                <span class="text-sm font-medium text-gray-400">Excelencia en diseño y desarrollo</span>
             </div>
 
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-5 reveal delay-100">
