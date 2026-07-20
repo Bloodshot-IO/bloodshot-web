@@ -1,5 +1,7 @@
 # Bloodshot.io
 
+Sitios web de alto rendimiento.
+
 Sitio web oficial de **Bloodshot.io**, agencia de diseño y desarrollo web con sede en Monterrey, Nuevo León, MX. Landing page orientada a conversión con páginas de servicios (diseño web, e-commerce y correos empresariales) y formulario de contacto para captación de leads.
 
 ## Stack
