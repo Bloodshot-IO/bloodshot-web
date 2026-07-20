@@ -19,7 +19,7 @@ include 'includes/header.php';
             </div>
 
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-5 reveal delay-100">
-                Diseño web para negocios modernos.
+                Diseño Web para negocios modernos.
             </h1>
 
             <p class="text-base md:text-lg text-gray-400 max-w-2xl mx-auto mb-6 leading-relaxed reveal delay-200">
