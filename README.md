@@ -62,9 +62,17 @@ Abrir [http://localhost:8000](http://localhost:8000).
 3. Envía el correo a `contacto@bloodshot.io` con asunto `[NUEVO LEAD WEB] - <servicio>`.
 4. Redirige a `/inicio?status=success` o `?status=error_*` según el resultado.
 
-## Despliegue
+## Flujo de trabajo
 
-El sitio se despliega en **Hostinger**. El flujo de trabajo usa la rama `dev` para cambios y Pull Requests hacia `main`, que dispara el despliegue (CI/CD de Hostinger).
+Este repositorio sigue el SOP de despliegue continuo de Bloodshot.io.
+
+- `main` — producción. Protegida: no admite push directo, todo entra por Pull Request. Hostinger despliega automáticamente a bloodshot.io con cada merge.
+- `dev` — rama de integración del equipo. Es la rama por defecto del repositorio.
+- `feature/*`, `fix/*`, `hotfix/*`, `chore/*` — ramas de trabajo individuales. Se eliminan automáticamente al fusionarse.
+
+**Flujo:** `feature/tu-tarea` → PR a `dev` → PR a `main` → producción.
+
+> Al abrir el PR de `dev` a `main`, cambia la base manualmente: GitHub propone `dev` por defecto.
 
 ## Clientes destacados
 
