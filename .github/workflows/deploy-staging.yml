@@ -1,0 +1,42 @@
+name: Deploy Staging
+on:
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+jobs:
+  deploy-staging:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Sincronizar archivos a staging por FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ vars.STAGING_DIR }}
+          protocol: ftp
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/staging/**
+            README.md
+            .gitignore
+
+      - name: Avisar en Discord si el deploy a staging falla
+        if: failure()
+        run: |
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          PAYLOAD=$(jq -n \
+            --arg name "${{ vars.SITE_NAME }}" \
+            --arg run  "$RUN_URL" \
+            '{username:"Bloodshot Deploy Bot",
+              embeds:[{title:"🟠 Falló el despliegue a staging",
+                       color:15105570,
+                       url:$run,
+                       fields:[{name:"Sitio",value:$name},
+                               {name:"Rama",value:"dev"}]}]}')
+          curl -s -H "Content-Type: application/json" -d "$PAYLOAD" "${{ secrets.DISCORD_WEBHOOK }}"
