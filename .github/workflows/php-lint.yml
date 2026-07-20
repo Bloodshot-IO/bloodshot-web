@@ -1,0 +1,13 @@
+name: PHP Lint
+on:
+  pull_request:
+    branches: [dev, main]
+jobs:
+  php-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar sintaxis de todos los archivos PHP
+        run: |
+          find . -type f -name "*.php" -print0 \
+            | xargs -0 -n1 -P4 php -l
