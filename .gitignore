@@ -1,0 +1,15 @@
+# Dependencias / build (por si acaso)
+/node_modules
+/vendor
+
+# Entorno y secretos
+.env
+*.local.php
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+/.vscode
+/.idea
