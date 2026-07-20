@@ -1,14 +1,17 @@
 RewriteEngine On
 
-# 1. Redirigir la palabra /inicio hacia index.php
+# 1. Forzar HTTPS (antes de las reglas de rutas para no exponer la extensión .php)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Redirigir la palabra /inicio hacia index.php
 RewriteRule ^inicio/?$ index.php [L,NC]
 
-# 2. Quitar la extensión .php de TODAS las demás páginas
+# 3. Quitar la extensión .php de TODAS las demás páginas
 # (Ejemplo: bloodshot.io/servicios cargará servicios.php internamente)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [L]
 
-# 3. Forzar HTTPS (Opcional)
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# 4. Bloquear acceso web al directorio .git (el sitio se despliega desde Git)
+RedirectMatch 404 /\.git
