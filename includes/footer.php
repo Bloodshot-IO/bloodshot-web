@@ -4,7 +4,7 @@
             <a href="https://www.linkedin.com/company/bloodshot-io/" class="hover:text-white transition-colors" target="_blank" >LinkedIn</a>
             <a href="https://www.facebook.com/profile.php?id=61588946308146&locale=es_LA" target="_blank" class="hover:text-white transition-colors">Facebook</a>
         </div>
-        <p>&copy; <?php echo date('Y'); ?> Bloodshot. Monterrey, NL.</p>
+        <p>&copy; <?php echo date('Y'; ?> Bloodshot. Monterrey, NL.</p>
     </footer>
 
     <script>
