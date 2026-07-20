@@ -15,3 +15,8 @@ RewriteRule ^(.*)$ $1.php [L]
 
 # 4. Bloquear acceso web al directorio .git (el sitio se despliega desde Git)
 RedirectMatch 404 /\.git
+
+# 5. Bloquear archivos de documentación y configuración
+<FilesMatch "\.(md|yml|yaml|lock|example)$">
+    Require all denied
+</FilesMatch>
