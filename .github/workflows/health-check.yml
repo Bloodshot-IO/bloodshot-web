@@ -1,0 +1,50 @@
+name: Health Check
+on:
+  push:
+    branches: [main]        # check puntual tras cada despliegue a producción
+  schedule:
+    - cron: '0 6,18 * * *'  # recurrente: 00:00 y 12:00 hora de México (UTC-6)
+  workflow_dispatch:         # permite lanzarlo a mano desde la pestaña Actions
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Esperar a que Hostinger despliegue
+        if: github.event_name == 'push'
+        run: sleep 45   # margen sobre los ~10s de Hostinger; súbelo si tu deploy tarda más
+
+      - name: Comprobar que el sitio responde
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 30 "${{ vars.SITE_URL }}" || echo "000")
+          echo "HTTP_STATUS=$STATUS" >> "$GITHUB_ENV"
+          echo "Estado HTTP recibido: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "El sitio NO devolvió 200."
+            exit 1
+          fi
+
+      - name: Avisar en Discord si el sitio está caído
+        if: failure()
+        run: |
+          case "${{ github.event_name }}" in
+            push)     TRIGGER="Post-despliegue (push a main)";;
+            schedule) TRIGGER="Chequeo programado (cada 12h)";;
+            *)        TRIGGER="Manual";;
+          esac
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          PAYLOAD=$(jq -n \
+            --arg name    "${{ vars.SITE_NAME }}" \
+            --arg url     "${{ vars.SITE_URL }}" \
+            --arg status  "${HTTP_STATUS:-000}" \
+            --arg trigger "$TRIGGER" \
+            --arg run     "$RUN_URL" \
+            '{username:"Bloodshot Deploy Bot",
+              embeds:[{title:"🔴 Sitio no responde correctamente",
+                       color:15158332,
+                       url:$run,
+                       fields:[{name:"Sitio",value:$name},
+                               {name:"URL",value:$url},
+                               {name:"Estado HTTP",value:$status},
+                               {name:"Disparador",value:$trigger}]}]}')
+          curl -s -H "Content-Type: application/json" -d "$PAYLOAD" "${{ secrets.DISCORD_WEBHOOK }}"
