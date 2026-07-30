@@ -28,16 +28,44 @@ body {
 
 /* 4. ANIMACIONES (Marquee) */
 @keyframes marquee {
-    0% { transform: translateX(0%); }
-    100% { transform: translateX(-50%); }
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(-100%, 0, 0); }
 }
 
-.animate-marquee {
+.marquee {
+    --marquee-gap: 6rem;
+    --marquee-duration: 30s;
     display: flex;
-    width: 200%;
-    animation: marquee 25s linear infinite;
+    overflow: hidden;
+    /* La cinta es decorativa: nunca debe recibir hover ni selección */
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+    /* El fade se hace con máscara para que siempre case con el fondo real */
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 8rem, #000 calc(100% - 8rem), transparent);
+            mask-image: linear-gradient(to right, transparent, #000 8rem, #000 calc(100% - 8rem), transparent);
 }
-.animate-marquee:hover { animation-play-state: paused; }
+
+.marquee__track {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: var(--marquee-gap);
+    /* Iguala la separación en la unión entre una copia y la siguiente */
+    padding-right: var(--marquee-gap);
+    margin: 0;
+    list-style: none;
+    animation: marquee var(--marquee-duration) linear infinite;
+    will-change: transform;
+}
+
+@media (max-width: 640px) {
+    .marquee { --marquee-gap: 3rem; --marquee-duration: 20s; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .marquee__track { animation: none; }
+}
 
 /* 5. SISTEMA REVEAL */
 .reveal {
