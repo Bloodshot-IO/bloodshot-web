@@ -1,6 +1,17 @@
-<?php 
+<?php
 $page_title = "Bloodshot | Sitios Web de Alto Rendimiento";
-include 'includes/header.php'; 
+
+$marquee_clientes = [
+    'Botanero Limón',
+    'Nue Lingerie',
+    'Boimsa',
+    "Gabrielo's Pizza",
+];
+
+/* Se repite la lista para que una sola copia del track cubra pantallas anchas. */
+$marquee_track = array_merge($marquee_clientes, $marquee_clientes);
+
+include 'includes/header.php';
 ?>
 
     <section class="relative pt-44 pb-10 md:pt-40 md:pb-16 px-6 overflow-hidden">
@@ -46,39 +57,26 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <section class="border-y border-white/5 bg-brand-dark py-8 overflow-hidden relative">
-    <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-brand-black to-transparent z-20 pointer-events-none"></div>
-    <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-brand-black to-transparent z-20 pointer-events-none"></div>
-    
-    <div class="flex overflow-hidden">
-        <div class="animate-marquee flex whitespace-nowrap">
-            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
-                <span class="mx-12">Botanero Limón</span>
-                <span class="mx-12">Nue Lingerie</span>
-                <span class="mx-12">Boimsa</span>
-                <span class="mx-12">Gabrielo's Pizza</span>
+    <section class="border-y border-white/5 bg-brand-dark py-8" aria-labelledby="clientes-heading">
+        <h2 id="clientes-heading" class="sr-only">Clientes que confían en Bloodshot</h2>
+
+        <!-- Lista real para lectores de pantalla: la cinta de abajo es puramente visual -->
+        <ul class="sr-only">
+            <?php foreach ($marquee_clientes as $cliente): ?>
+            <li><?= htmlspecialchars($cliente, ENT_QUOTES, 'UTF-8') ?></li>
+            <?php endforeach; ?>
+        </ul>
+
+        <div class="marquee" aria-hidden="true">
+            <?php for ($copia = 0; $copia < 2; $copia++): ?>
+            <div class="marquee__track text-gray-500 font-bold text-xl uppercase tracking-widest whitespace-nowrap">
+                <?php foreach ($marquee_track as $cliente): ?>
+                <span><?= htmlspecialchars($cliente, ENT_QUOTES, 'UTF-8') ?></span>
+                <?php endforeach; ?>
             </div>
-            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
-                <span class="mx-12">Botanero Limón</span>
-                <span class="mx-12">Nue Lingerie</span>
-                <span class="mx-12">Boimsa</span>
-                <span class="mx-12">Gabrielo's Pizza</span>
-            </div>
-            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
-                <span class="mx-12">Botanero Limón</span>
-                <span class="mx-12">Nue Lingerie</span>
-                <span class="mx-12">Boimsa</span>
-                <span class="mx-12">Gabrielo's Pizza</span>
-            </div>
-            <div class="flex shrink-0 items-center text-gray-500 font-bold text-xl uppercase tracking-widest px-4">
-                <span class="mx-12">Botanero Limón</span>
-                <span class="mx-12">Nue Lingerie</span>
-                <span class="mx-12">Boimsa</span>
-                <span class="mx-12">Gabrielo's Pizza</span>
-            </div>
+            <?php endfor; ?>
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="servicios" class="py-16 md:py-24 px-6 relative">
         <div class="max-w-7xl mx-auto">
