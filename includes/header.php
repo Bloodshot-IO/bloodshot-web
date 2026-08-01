@@ -44,8 +44,8 @@
     <nav class="fixed w-full z-50 glass-header transition-all duration-300 h-20" id="navbar">
         <div class="max-w-7xl mx-auto px-6 h-full flex items-center justify-center md:justify-between relative">
             
-            <a href="inicio" class="text-2xl font-bold tracking-tighter hover:text-brand-red transition-colors flex items-center gap-1 group z-50">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-red mr-0.5 animate-pulse"></span>
+            <a href="inicio" class="text-2xl font-bold tracking-tighter hover:text-brand-red transition-colors flex items-center group z-50">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-red mr-1.5 animate-pulse"></span>
                 Bloodshot<span class="font-light text-gray-400 group-hover:text-white transition-colors">.io</span>
             </a>
             
