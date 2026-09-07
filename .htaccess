@@ -11,14 +11,3 @@ RedirectMatch 404 /\.git
 <FilesMatch "\.(md|yml|yaml|lock|example|bak)$">
     Require all denied
 </FilesMatch>
-
-# 4. vCards: sin el tipo MIME correcto, iOS no ofrece "Añadir a contactos"
-#    y Android las trata como descarga genérica. Inline para que Safari
-#    las muestre en lugar de bajarlas a Archivos.
-AddType text/vcard .vcf
-<IfModule mod_headers.c>
-    <FilesMatch "\.vcf$">
-        Header set Content-Disposition "inline"
-        Header set Cache-Control "public, max-age=3600"
-    </FilesMatch>
-</IfModule>
