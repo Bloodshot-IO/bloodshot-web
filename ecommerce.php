@@ -25,27 +25,32 @@ include 'includes/header.php';
 <section class="pt-20 md:pt-32 pb-16 px-6 bg-brand-dark relative z-20">
     <div class="max-w-7xl mx-auto">
         
-        <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+        <div class="grid lg:grid-cols-2 gap-8 items-stretch max-w-5xl mx-auto">
             
             <div class="reveal delay-100 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
                 <div class="mb-8">
-                    <h3 class="text-2xl font-bold text-white mb-2">Starter</h3>
+                    <h3 class="text-2xl font-bold text-white mb-2">Clásico</h3>
                     <p class="text-gray-400 text-sm h-10">La puerta de entrada al comercio digital profesional.</p>
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$4,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">Pago en una exhibición</p>
+                    <p class="text-gray-400 text-sm font-medium mb-1">A partir de</p>
+                    <span class="text-4xl font-extrabold text-white">$8,999</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Hasta 4 secciones clave y 2 colecciones.</span>
+                        <span>Diseño sobre plantilla.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Carga de hasta 15 productos iniciales.</span>
+                        <span>Hasta 5 secciones clave y 2 colecciones.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
+                        <span>Carga de hasta 30 productos iniciales.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
@@ -57,16 +62,16 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>1 reunión de ajuste.</span>
+                        <span>2 reuniones de ajuste.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega en 2 a 3 semanas.</span>
+                        <span>Entrega en 3 a 4 semanas.</span>
                     </li>
                 </ul>
 
-                <a href="index.php?servicio=E-commerce Starter#contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
-                    Seleccionar Starter
+                <a href="index.php?servicio=E-commerce Clasico#contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
+                    Seleccionar Clásico
                 </a>
             </div>
 
@@ -76,59 +81,21 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8">
-                    <h3 class="text-2xl font-bold text-white mb-2">Clásico</h3>
-                    <p class="text-gray-400 text-sm h-10">Optimizado para negocios con inventario en crecimiento.</p>
-                </div>
-                
-                <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$7,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
-                    <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
-                </div>
-
-                <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Hasta 8 secciones y 5 colecciones.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Carga de hasta 50 productos iniciales.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Integración de Google Analytics y Pixel de Meta.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Configuración de pasarelas.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>3 reuniones de ajuste.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega en 4 a 6 semanas.</span>
-                    </li>
-                </ul>
-
-                <a href="index.php?servicio=E-commerce Clasico#contacto" class="w-full py-4 text-center bg-brand-red rounded-xl text-white font-bold hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(220,38,38,0.4)] block mt-auto">
-                    Seleccionar Clásico
-                </a>
-            </div>
-
-            <div class="reveal delay-300 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
-                <div class="mb-8">
                     <h3 class="text-2xl font-bold text-white mb-2">Avanzado</h3>
                     <p class="text-gray-400 text-sm h-10">La experiencia total de e-commerce sin límites.</p>
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$12,999</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <p class="text-gray-400 text-sm font-medium mb-1">A partir de</p>
+                    <span class="text-4xl font-extrabold text-white">$16,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
+                        <span>Diseño completamente personalizado.</span>
+                    </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
                         <span>Hasta 12 secciones y 10 colecciones.</span>
@@ -155,7 +122,7 @@ include 'includes/header.php';
                     </li>
                 </ul>
 
-                <a href="index.php?servicio=E-commerce Avanzado#contacto" class="w-full py-4 text-center border border-white/20 rounded-xl text-white font-bold hover:bg-white hover:text-black transition-colors block mt-auto">
+                <a href="index.php?servicio=E-commerce Avanzado#contacto" class="w-full py-4 text-center bg-brand-red rounded-xl text-white font-bold hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(220,38,38,0.4)] block mt-auto">
                     Seleccionar Avanzado
                 </a>
             </div>
