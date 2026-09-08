@@ -423,7 +423,9 @@ include 'includes/header.php';
                             <p>Uno de nuestros principios es la velocidad sin sacrificar calidad.</p>
                             <ul class="list-disc ml-5 mt-2 space-y-1">
                                 <li><strong>Web Express:</strong> 2 a 3 semanas.</li>
-                                <li><strong>Proyectos Profesionales/E-commerce:</strong> 4 a 6 semanas.</li>
+                                <li><strong>Web Profesional:</strong> 4 a 6 semanas.</li>
+                                <li><strong>E-commerce Clásico:</strong> 3 a 4 semanas.</li>
+                                <li><strong>E-commerce Avanzado:</strong> 6 a 8 semanas.</li>
                                 <li><strong>Proyectos a la medida:</strong> 8+ semanas.</li>
                             </ul>
                         </div>
