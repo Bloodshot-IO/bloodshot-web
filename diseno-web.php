@@ -34,7 +34,7 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$3,199</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$4,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">Pago en una exhibición</p>
                 </div>
 
@@ -77,7 +77,7 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$6,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$8,999</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
                 </div>
 
