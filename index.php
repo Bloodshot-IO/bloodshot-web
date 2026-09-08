@@ -486,7 +486,6 @@ include 'includes/header.php';
                                 <option value="Landing Page" <?php echo ($servicio_url == 'Landing Page') ? 'selected' : ''; ?>>Web Express / Landing Page</option>
                                 <option value="Web Profesional" <?php echo ($servicio_url == 'Web Profesional') ? 'selected' : ''; ?>>Página web profesional</option>
                                 <option value="Desarrollo a Medida" <?php echo ($servicio_url == 'Desarrollo a Medida') ? 'selected' : ''; ?>>Desarrollo web personalizado</option>
-                                <option value="E-commerce Starter" <?php echo ($servicio_url == 'E-commerce Starter') ? 'selected' : ''; ?>>E-commerce / Plan Starter</option>
                                 <option value="E-commerce Clasico" <?php echo ($servicio_url == 'E-commerce Clasico') ? 'selected' : ''; ?>>E-commerce / Plan Clásico</option>
                                 <option value="E-commerce Avanzado" <?php echo ($servicio_url == 'E-commerce Avanzado') ? 'selected' : ''; ?>>E-commerce / Plan Avanzado</option>
                                 
