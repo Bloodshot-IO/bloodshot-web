@@ -35,7 +35,7 @@ include 'includes/header.php';
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
                     <p class="text-gray-400 text-sm font-medium mb-1">A partir de</p>
-                    <span class="text-4xl font-extrabold text-white">$8,999</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$10,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
                 </div>
 
@@ -87,8 +87,9 @@ include 'includes/header.php';
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
                     <p class="text-gray-400 text-sm font-medium mb-1">A partir de</p>
-                    <span class="text-4xl font-extrabold text-white">$16,499</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$19,199</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
+                    <p class="text-gray-500 text-sm mt-2">+ desde $2,900 MXN/mes de mantenimiento</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
@@ -118,7 +119,7 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega en 6 a 8 semanas.</span>
+                        <span>Entrega en 8+ semanas.</span>
                     </li>
                 </ul>
 
