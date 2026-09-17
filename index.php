@@ -405,7 +405,7 @@ include 'includes/header.php';
                     </summary>
                     <div class="px-8 pb-8 text-gray-400 text-base leading-relaxed pl-8">
                         <div class="border-l-2 border-brand-red/50 pl-6"> 
-                            <p>Nuestros planes inician desde <strong>$4,499 MXN</strong> para Landing Pages (Web Express) hasta <strong>$8,999 MXN</strong> para sitios profesionales completos. Si tu empresa tiene necesidades más avanzadas, tenemos cotizaciones a la medida para tí.</p>
+                            <p>Nuestros planes inician desde <strong>$5,299 MXN</strong> para Landing Pages (Web Express) hasta <strong>$10,499 MXN</strong> para sitios profesionales completos. Si tu empresa tiene necesidades más avanzadas, tenemos cotizaciones a la medida para tí.</p>
                             <p class="mt-2 text-sm text-gray-500">Nota: No tenemos costos ocultos ni letras chiquitas.</p>
                         </div>
                     </div>
@@ -425,7 +425,7 @@ include 'includes/header.php';
                                 <li><strong>Web Express:</strong> 2 a 3 semanas.</li>
                                 <li><strong>Web Profesional:</strong> 4 a 6 semanas.</li>
                                 <li><strong>E-commerce Clásico:</strong> 3 a 4 semanas.</li>
-                                <li><strong>E-commerce Avanzado:</strong> 6 a 8 semanas.</li>
+                                <li><strong>E-commerce Avanzado:</strong> 8+ semanas.</li>
                                 <li><strong>Proyectos a la medida:</strong> 8+ semanas.</li>
                             </ul>
                         </div>
@@ -442,7 +442,7 @@ include 'includes/header.php';
                     <div class="px-8 pb-8 text-gray-400 text-base leading-relaxed pl-8">
                         <div class="border-l-2 border-brand-red/50 pl-6">
                             <p>Sí, no te dejamos solo. Todos nuestros desarrollos incluyen <strong>1 mes de soporte técnico gratuito</strong> post-lanzamiento para asegurar que todo funcione perfecto.</p>
-                            <p class="mt-2">Posteriormente, ofrecemos planes de mantenimiento y hosting opcionales desde $1,500 MXN al mes que cubren seguridad y actualizaciones continuas.</p>
+                            <p class="mt-2">Posteriormente, ofrecemos planes de mantenimiento y hosting opcionales desde $1,160 MXN al mes que cubren seguridad y actualizaciones continuas.</p>
                         </div>
                     </div>
                 </details>
