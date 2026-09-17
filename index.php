@@ -441,7 +441,7 @@ include 'includes/header.php';
                     </summary>
                     <div class="px-8 pb-8 text-gray-400 text-base leading-relaxed pl-8">
                         <div class="border-l-2 border-brand-red/50 pl-6">
-                            <p>Sí, no te dejamos solo. Todos nuestros desarrollos incluyen <strong>1 mes de soporte técnico gratuito</strong> post-lanzamiento para asegurar que todo funcione perfecto.</p>
+                            <p>Sí, no te dejamos solo. Todos nuestros desarrollos incluyen <strong>1 mes de mantenimiento de prueba sin costo</strong> post-lanzamiento para asegurar que todo funcione perfecto.</p>
                             <p class="mt-2">Posteriormente, ofrecemos planes de mantenimiento y hosting opcionales desde $1,160 MXN al mes que cubren seguridad y actualizaciones continuas.</p>
                         </div>
                     </div>
