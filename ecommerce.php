@@ -131,7 +131,7 @@ include 'includes/header.php';
         </div>
         
         <div class="mt-16 text-center text-sm text-gray-500">
-            <p>Todos los proyectos se ejecutan sobre la plataforma <span class="text-gray-300 font-bold">Shopify</span> e incluyen <span class="text-gray-300 font-bold">Copywriting</span> y <span class="text-white font-extrabold">1 mes de soporte de prueba sin costo</span>.</p>
+            <p>Todos los proyectos se ejecutan sobre la plataforma <span class="text-gray-300 font-bold">Shopify</span> e incluyen <span class="text-gray-300 font-bold">Copywriting</span> y <span class="text-white font-extrabold">1 mes de mantenimiento de prueba sin costo</span>.</p>
         </div>
         
     </div>

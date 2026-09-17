@@ -35,7 +35,7 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$200</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$240</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">Por mes</p>
                 </div>
 
@@ -79,7 +79,7 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$400</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$470</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">Por mes</p>
                 </div>
 
@@ -119,7 +119,7 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
-                    <span class="text-4xl font-extrabold text-white">$250</span><span class="text-gray-500 font-medium">.00 MXN</span>
+                    <span class="text-4xl font-extrabold text-white">$300</span><span class="text-gray-500 font-medium">.00 MXN</span>
                     <p class="text-brand-red text-sm font-bold mt-2">Al mes por usuario</p>
                 </div>
 
@@ -155,7 +155,7 @@ include 'includes/header.php';
         
         <!-- TEXTO LEGAL INFERIOR ACTUALIZADO -->
         <div class="mt-16 text-center text-sm text-gray-500">
-            <p>Los precios mostrados corresponden al depósito de mantenimiento mensual de infraestructura (retainer). Adicionalmente, el inicio de cada proyecto requiere cubrir una tarifa única de configuración inicial (<span class="text-gray-300 font-bold">$850 MXN</span> Esencial, <span class="text-gray-300 font-bold">$1,200 MXN</span> Crecimiento, o <span class="text-gray-300 font-bold">$1,500 MXN</span> Corporativo).</p>
+            <p>Los precios mostrados corresponden al depósito de mantenimiento mensual de infraestructura (retainer). Adicionalmente, el inicio de cada proyecto requiere cubrir una tarifa única de configuración inicial (<span class="text-gray-300 font-bold">$999 MXN</span> Esencial, <span class="text-gray-300 font-bold">$1,399 MXN</span> Crecimiento, o <span class="text-gray-300 font-bold">$1,749 MXN</span> Corporativo).</p>
         </div>
         
     </div>
