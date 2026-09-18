@@ -12,7 +12,7 @@ include 'includes/header.php';
             <span class="text-brand-red font-bold tracking-widest text-sm uppercase">Nuestros paquetes</span>
         </div>
 
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 reveal delay-100 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] pb-2 mb-4 reveal delay-100 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
             Imagen e ingeniería al nivel de tu negocio.
         </h1>
 

@@ -29,7 +29,7 @@ include 'includes/header.php';
                 <span class="text-sm font-medium text-gray-400">Excelencia en diseño y desarrollo</span>
             </div>
 
-            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-5 reveal delay-100">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] pb-2 mb-3 reveal delay-100">
                 Diseño web para negocios modernos.
             </h1>
 
