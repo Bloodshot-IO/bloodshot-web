@@ -12,7 +12,7 @@ include 'includes/header.php';
             <span class="text-brand-red font-bold tracking-[0.2em] text-sm uppercase">Nuestra Esencia</span>
         </div>
 
-        <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-6 reveal delay-100 drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1] pb-2 mb-4 reveal delay-100 drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
             No hacemos webs, <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-red-800">forjamos</span> activos.
         </h1>
         
