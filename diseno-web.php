@@ -25,9 +25,9 @@ include 'includes/header.php';
 <section class="pt-20 md:pt-32 pb-16 px-6 bg-brand-dark relative z-20">
     <div class="max-w-7xl mx-auto">
         
-        <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+        <div class="grid lg:grid-cols-3 gap-8 lg:gap-y-0 lg:grid-rows-[auto_auto_1fr_auto] items-stretch">
             
-            <div class="reveal delay-100 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
+            <div class="reveal delay-100 flex flex-col lg:grid lg:grid-rows-subgrid lg:row-span-4 h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
                 <div class="mb-8">
                     <h3 class="text-2xl font-bold text-white mb-2">Web Express</h3>
                     <p class="text-gray-400 text-sm h-10">Ideal para validar ideas y captar leads rápidamente.</p>
@@ -42,7 +42,7 @@ include 'includes/header.php';
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Hasta 2 secciones de contenido + 1 sección de términos.</span>
+                        <span>Hasta 2 secciones de contenido.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
@@ -67,7 +67,7 @@ include 'includes/header.php';
                 </a>
             </div>
 
-            <div class="reveal delay-200 flex flex-col h-full bg-brand-gray border-2 border-brand-red rounded-3xl p-8 relative transform md:-translate-y-4 shadow-[0_0_40px_rgba(220,38,38,0.15)] z-10">
+            <div class="reveal delay-200 flex flex-col lg:grid lg:grid-rows-subgrid lg:row-span-4 h-full bg-brand-gray border-2 border-brand-red rounded-3xl p-8 relative transform md:-translate-y-4 shadow-[0_0_40px_rgba(220,38,38,0.15)] z-10">
                 <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-red text-white text-xs font-black uppercase tracking-widest py-1.5 px-4 rounded-full">
                     El más elegido
                 </div>
@@ -86,7 +86,7 @@ include 'includes/header.php';
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Hasta 5 secciones de contenido + 2 de políticas.</span>
+                        <span>Hasta 5 secciones de contenido.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
@@ -111,7 +111,7 @@ include 'includes/header.php';
                 </a>
             </div>
 
-            <div class="reveal delay-300 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
+            <div class="reveal delay-300 flex flex-col lg:grid lg:grid-rows-subgrid lg:row-span-4 h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
                 <div class="mb-8">
                     <h3 class="text-2xl font-bold text-white mb-2">Personalizado</h3>
                     <p class="text-gray-400 text-sm h-10">Desarrollo a la medida sin límites técnicos ni creativos.</p>
@@ -119,7 +119,8 @@ include 'includes/header.php';
                 
                 <div class="mb-8 pb-8 border-b border-white/10">
                     <span class="text-3xl font-extrabold text-white">Cotización Especial</span>
-                    <p class="text-gray-500 text-sm font-medium mt-3">Diseñado para proyectos a gran escala.</p>
+                    <p class="text-brand-red text-sm font-bold mt-2">50% anticipo / 50% al finalizar</p>
+                    <p class="text-gray-500 text-sm font-medium mt-2">Diseñado para proyectos a gran escala.</p>
                 </div>
 
                 <ul class="space-y-4 mb-10 flex-grow text-gray-300 text-sm">
