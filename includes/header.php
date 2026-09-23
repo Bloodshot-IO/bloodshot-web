@@ -15,7 +15,17 @@
 
     <script src="https://unpkg.com/lucide@latest"></script>
 
-    <link rel="icon" type="image/png" href="assets/img/bloodshot.png">
+    <meta name="theme-color" content="#050505">
+    <!-- El ?v= obliga al navegador a volver a pedirlos: Chrome cachea los
+         favicon con mucha insistencia y no los renueva ni recargando. -->
+    <link rel="icon" href="/favicon.ico?v=2" sizes="any">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png?v=2">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96.png?v=2">
+    <!-- iOS: sin esto, al anclar a inicio usa una captura o el icono del hosting. -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=2">
+    <meta name="apple-mobile-web-app-title" content="Bloodshot">
+    <link rel="manifest" href="/site.webmanifest">
 
     <script>
         tailwind.config = {
