@@ -20,3 +20,8 @@ RedirectMatch 404 /\.git
 <FilesMatch "\.(md|yml|yaml|lock|example)$">
     Require all denied
 </FilesMatch>
+
+# 6. Tipo MIME del manifest: por defecto el host lo entrega como text/plain
+# y Chrome lo descarta. AddType es FileInfo, igual que RewriteEngine, asi
+# que si las reglas de arriba funcionan esta tambien.
+AddType application/manifest+json .webmanifest
