@@ -45,7 +45,9 @@
         <div class="max-w-7xl mx-auto px-6 h-full flex items-center justify-center md:justify-between relative">
             
             <a href="inicio" class="text-2xl font-bold tracking-tighter hover:text-brand-red transition-colors flex items-center group z-50">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-red mr-1.5 animate-pulse"></span>
+                <svg class="w-[0.72em] h-[0.72em] mr-1.5 shrink-0" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="12" r="9.12" fill="none" stroke="#DC2626" stroke-width="5.76"/>
+                </svg>
                 Bloodshot<span class="font-light text-gray-400 group-hover:text-white transition-colors">.io</span>
             </a>
             
