@@ -44,11 +44,11 @@
     <nav class="fixed w-full z-50 glass-header transition-all duration-300 h-20" id="navbar">
         <div class="max-w-7xl mx-auto px-6 h-full flex items-center justify-center md:justify-between relative">
             
-            <a href="inicio" class="text-2xl font-bold tracking-tighter hover:text-brand-red transition-colors flex items-center group z-50">
+            <a href="inicio" class="text-2xl font-bold tracking-tighter flex items-center z-50">
                 <svg class="w-[0.72em] h-[0.72em] mr-1.5 shrink-0" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                     <circle cx="12" cy="12" r="9.12" fill="none" stroke="#DC2626" stroke-width="5.76"/>
                 </svg>
-                Bloodshot<span class="font-light text-gray-400 group-hover:text-white transition-colors">.io</span>
+                Bloodshot<span class="font-light text-gray-400">.io</span>
             </a>
             
             <div class="hidden md:flex space-x-8 text-sm font-medium items-center">

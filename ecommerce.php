@@ -25,10 +25,10 @@ include 'includes/header.php';
 <section class="pt-20 md:pt-32 pb-16 px-6 bg-brand-dark relative z-20">
     <div class="max-w-7xl mx-auto">
         
-        <div class="grid lg:grid-cols-2 gap-8 items-stretch max-w-5xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-y-0 lg:grid-rows-[auto_auto_1fr_auto] items-stretch max-w-5xl mx-auto">
             
-            <div class="reveal delay-100 flex flex-col h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
-                <div class="mb-8">
+            <div class="reveal delay-100 flex flex-col lg:grid lg:grid-rows-subgrid lg:row-span-4 h-full bg-black border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 relative group">
+                <div class="mb-2">
                     <h3 class="text-2xl font-bold text-white mb-2">Clásico</h3>
                     <p class="text-gray-400 text-sm h-10">La puerta de entrada al comercio digital profesional.</p>
                 </div>
@@ -75,12 +75,12 @@ include 'includes/header.php';
                 </a>
             </div>
 
-            <div class="reveal delay-200 flex flex-col h-full bg-brand-gray border-2 border-brand-red rounded-3xl p-8 relative transform md:-translate-y-4 shadow-[0_0_40px_rgba(220,38,38,0.15)] z-10">
+            <div class="reveal delay-200 flex flex-col lg:grid lg:grid-rows-subgrid lg:row-span-4 h-full bg-brand-gray border-2 border-brand-red rounded-3xl p-8 relative transform md:-translate-y-4 shadow-[0_0_40px_rgba(220,38,38,0.15)] z-10">
                 <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-red text-white text-xs font-black uppercase tracking-widest py-1.5 px-4 rounded-full">
                     Más popular
                 </div>
                 
-                <div class="mb-8">
+                <div class="mb-2">
                     <h3 class="text-2xl font-bold text-white mb-2">Avanzado</h3>
                     <p class="text-gray-400 text-sm h-10">La experiencia total de e-commerce sin límites.</p>
                 </div>
