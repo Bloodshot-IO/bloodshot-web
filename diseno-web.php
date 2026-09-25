@@ -54,11 +54,11 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>1 Formulario de contacto y 1 Mapa.</span>
+                        <span>1 ubicación de Google Maps.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega rápida: 2 a 3 semanas.</span>
+                        <span>Lanzamiento en 2 a 3 semanas.</span>
                     </li>
                 </ul>
 
@@ -102,7 +102,7 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega en 4 a 6 semanas.</span>
+                        <span>Lanzamiento en 4 a 6 semanas.</span>
                     </li>
                 </ul>
 
@@ -134,15 +134,15 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Desarrollo de funcionalidades específicas.</span>
+                        <span>Desarrollo de funciones personalizadas.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>5 reuniones de ajuste previas al lanzamiento.</span>
+                        <span>Ubicaciones ilimitadas.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Tiempo de lanzamiento variable a acordar.</span>
+                        <span>Lanzamiento variable.</span>
                     </li>
                 </ul>
 
