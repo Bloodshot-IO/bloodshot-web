@@ -321,8 +321,7 @@ include 'includes/header.php';
                 </h2>
                 
                 <p class="text-gray-400 leading-relaxed mb-8">
-                    En Bloodshot, no somos solo diseñadores. Somos consultores técnicos con una visión orientada a objetivos comerciales. 
-                    Entendemos que un sitio web es una inversión que debe generar retorno, ya sea en leads, ventas directas o posicionamiento de marca.
+                    En Bloodshot, no somos solo diseñadores. Somos consultores técnicos con una visión orientada a objetivos comerciales.
                 </p>
 
                 <div class="mb-10">
@@ -406,7 +405,6 @@ include 'includes/header.php';
                     <div class="px-8 pb-8 text-gray-400 text-base leading-relaxed pl-8">
                         <div class="border-l-2 border-brand-red/50 pl-6"> 
                             <p>Nuestros planes inician desde <strong>$5,299 MXN</strong> para Landing Pages (Web Express) hasta <strong>$10,499 MXN</strong> para sitios profesionales completos. Si tu empresa tiene necesidades más avanzadas, tenemos cotizaciones a la medida para tí.</p>
-                            <p class="mt-2 text-sm text-gray-500">Nota: No tenemos costos ocultos ni letras chiquitas.</p>
                         </div>
                     </div>
                 </details>
@@ -415,7 +413,7 @@ include 'includes/header.php';
             <div class="reveal delay-200 w-full">
                 <details class="group bg-brand-dark border border-white/5 rounded-2xl open:bg-white/5 w-full overflow-hidden transition-colors duration-300">
                     <summary class="p-8 flex justify-between items-center font-bold text-white list-none text-lg select-none cursor-pointer w-full transition-colors">
-                        <span>¿Cuál es el tiempo de entrega?</span>
+                        <span>¿Cuál es el tiempo de lanzamiento?</span>
                         <i data-lucide="chevron-down" class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform duration-300 flex-shrink-0 ml-4"></i>
                     </summary>
                     <div class="px-8 pb-8 text-gray-400 text-base leading-relaxed pl-8">
@@ -424,9 +422,9 @@ include 'includes/header.php';
                             <ul class="list-disc ml-5 mt-2 space-y-1">
                                 <li><strong>Web Express:</strong> 2 a 3 semanas.</li>
                                 <li><strong>Web Profesional:</strong> 4 a 6 semanas.</li>
-                                <li><strong>E-commerce Clásico:</strong> 3 a 4 semanas.</li>
+                                <li><strong>E-commerce Clásico:</strong> 4+ semanas.</li>
                                 <li><strong>E-commerce Avanzado:</strong> 8+ semanas.</li>
-                                <li><strong>Proyectos a la medida:</strong> 8+ semanas.</li>
+                                <li><strong>Proyectos a la medida:</strong> variable.</li>
                             </ul>
                         </div>
                     </div>
