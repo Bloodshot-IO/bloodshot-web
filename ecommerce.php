@@ -46,11 +46,11 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Hasta 5 secciones clave y 2 colecciones.</span>
+                        <span>A partir de 5 secciones y 2 colecciones.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Carga de hasta 30 productos iniciales.</span>
+                        <span>Carga a partir de 30 productos iniciales.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
@@ -58,15 +58,15 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Configuración de pasarelas.</span>
+                        <span>Configuración de pasarelas de pago.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>2 reuniones de ajuste.</span>
+                        <span>2 reuniones de revisión.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega en 3 a 4 semanas.</span>
+                        <span>Lanzamiento en 4+ semanas.</span>
                     </li>
                 </ul>
 
@@ -99,11 +99,11 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Hasta 12 secciones y 10 colecciones.</span>
+                        <span>A partir de 12 secciones y 10 colecciones.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Carga masiva: hasta 150 productos iniciales.</span>
+                        <span>Carga a partir de 150 productos iniciales.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
@@ -111,15 +111,15 @@ include 'includes/header.php';
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Configuración de pasarelas.</span>
+                        <span>Configuración de pasarelas de pago.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>5 reuniones de ajuste.</span>
+                        <span>5 reuniones de revisión.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-red shrink-0 mt-0.5"></i>
-                        <span>Entrega en 8+ semanas.</span>
+                        <span>Lanzamiento en 8+ semanas.</span>
                     </li>
                 </ul>
 
