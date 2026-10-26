@@ -10,6 +10,48 @@ jobs:
   health-check:
     runs-on: ubuntu-latest
     steps:
+      - name: Comprobar que se desplegó el commit
+        if: github.event_name == 'push'
+        run: |
+          set -u
+
+          # El sitio anterior también responde 200, así que un 200 no prueba que
+          # Hostinger haya desplegado. version.php devuelve el SHA que hay en el
+          # servidor; se espera hasta 15 min a que coincida con el del push.
+          VERSION_URL="${{ vars.SITE_URL }}"
+          VERSION_URL="${VERSION_URL%/}/version"
+          EXPECTED="${{ github.sha }}"
+          START=$(date +%s)
+          DEADLINE=$(( START + 900 ))
+          ATTEMPT=0
+          DEPLOYED=""
+
+          echo "Esperando el commit $EXPECTED en $VERSION_URL (poll cada 30s, máximo 15 min)."
+
+          while :; do
+            ATTEMPT=$(( ATTEMPT + 1 ))
+            # Query aleatoria para saltar la caché de LiteSpeed
+            DEPLOYED=$(curl -sS -L --ipv4 --max-time 30 "$VERSION_URL?cb=$RANDOM$RANDOM" 2>/dev/null | head -c 64 | tr -d '[:space:]') || DEPLOYED=""
+            echo "Intento $ATTEMPT — Desplegado: ${DEPLOYED:-(sin respuesta)} — Transcurrido: $(( $(date +%s) - START ))s"
+
+            if [ "$DEPLOYED" = "$EXPECTED" ]; then
+              echo "Hostinger publicó el commit esperado."
+              exit 0
+            fi
+
+            if [ "$(date +%s)" -ge "$DEADLINE" ]; then
+              break
+            fi
+
+            sleep 30
+          done
+
+          echo "Agotados los 15 min: producción sigue en ${DEPLOYED:-(desconocido)}, no en $EXPECTED."
+          echo "Revisar el webhook de Hostinger: gh api repos/${{ github.repository }}/hooks"
+          echo "DEPLOY_FAILED=1" >> "$GITHUB_ENV"
+          echo "DEPLOYED_SHA=${DEPLOYED:-desconocido}" >> "$GITHUB_ENV"
+          exit 1
+
       - name: Comprobar que el sitio responde
         run: |
           set -u
@@ -129,6 +171,28 @@ jobs:
             *)        TRIGGER="Manual";;
           esac
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          # Si falló la verificación del commit, el sitio responde pero con la versión anterior
+          if [ "${DEPLOY_FAILED:-}" = "1" ]; then
+            PAYLOAD=$(jq -n \
+              --arg name     "${{ vars.SITE_NAME }}" \
+              --arg url      "${{ vars.SITE_URL }}" \
+              --arg expected "${{ github.sha }}" \
+              --arg deployed "$DEPLOYED_SHA" \
+              --arg run      "$RUN_URL" \
+              '{username:"Bloodshot Deploy Bot",
+                embeds:[{title:"El despliegue no llegó a producción",
+                         color:15105570,
+                         url:$run,
+                         fields:[{name:"Sitio",value:$name},
+                                 {name:"URL",value:$url},
+                                 {name:"Commit esperado",value:$expected},
+                                 {name:"Commit en producción",value:$deployed},
+                                 {name:"Diagnóstico",value:"Hostinger no desplegó en 15 min. Revisar el webhook del repo y el historial en hPanel → Git."}]}]}')
+            curl -s --ipv4 -H "Content-Type: application/json" -d "$PAYLOAD" "${{ secrets.DISCORD_WEBHOOK }}"
+            exit 0
+          fi
+
           PAYLOAD=$(jq -n \
             --arg name    "${{ vars.SITE_NAME }}" \
             --arg url     "${{ vars.SITE_URL }}" \
