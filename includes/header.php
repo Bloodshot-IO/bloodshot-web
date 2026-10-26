@@ -71,6 +71,7 @@
                     </button>
                     
                     <div class="dropdown-menu">
+                        <a href="https://trywhisk.io" target="_blank" rel="noopener" class="block px-4 py-3 text-gray-300 hover:bg-white/5 hover:text-brand-red transition-colors">Whisk</a>
                         <a href="diseno-web" class="block px-4 py-3 text-gray-300 hover:bg-white/5 hover:text-brand-red transition-colors">Diseño Web</a>
                         <a href="ecommerce" class="block px-4 py-3 text-gray-300 hover:bg-white/5 hover:text-brand-red transition-colors">E-commerce</a>
                         <a href="correos" class="block px-4 py-3 text-gray-300 hover:bg-white/5 hover:text-brand-red transition-colors">Correos Empresariales</a>
@@ -102,6 +103,8 @@
         </div>
 
         <div id="mobile-services-menu" class="hidden justify-around items-center h-12 px-4 text-xs font-medium uppercase tracking-wider text-gray-400 border-t border-white/5">
+            <a href="https://trywhisk.io" target="_blank" rel="noopener" class="hover:text-white transition-colors py-2 w-full text-center">Whisk</a>
+            <div class="w-px h-3 bg-white/10 shrink-0"></div>
             <a href="diseno-web" class="hover:text-white transition-colors py-2 w-full text-center">Diseño Web</a>
             <div class="w-px h-3 bg-white/10 shrink-0"></div>
             <a href="ecommerce" class="hover:text-white transition-colors py-2 w-full text-center">Ecommerce</a>
