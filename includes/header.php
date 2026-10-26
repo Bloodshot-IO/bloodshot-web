@@ -102,14 +102,14 @@
             <a href="nosotros" class="hover:text-white transition-colors py-2 w-full text-center">Nosotros</a>
         </div>
 
-        <div id="mobile-services-menu" class="hidden justify-around items-center h-12 px-4 text-xs font-medium uppercase tracking-wider text-gray-400 border-t border-white/5">
-            <a href="https://trywhisk.io" target="_blank" rel="noopener" class="hover:text-white transition-colors py-2 w-full text-center">Whisk</a>
+        <div id="mobile-services-menu" class="hidden items-center h-12 px-2 text-xs font-medium uppercase tracking-wider text-gray-400 border-t border-white/5">
+            <a href="https://trywhisk.io" target="_blank" rel="noopener" class="hover:text-white transition-colors py-2 px-1 flex-auto text-center whitespace-nowrap">Whisk</a>
             <div class="w-px h-3 bg-white/10 shrink-0"></div>
-            <a href="diseno-web" class="hover:text-white transition-colors py-2 w-full text-center">Diseño Web</a>
+            <a href="diseno-web" class="hover:text-white transition-colors py-2 px-1 flex-auto text-center whitespace-nowrap">Diseño Web</a>
             <div class="w-px h-3 bg-white/10 shrink-0"></div>
-            <a href="ecommerce" class="hover:text-white transition-colors py-2 w-full text-center">Ecommerce</a>
+            <a href="ecommerce" class="hover:text-white transition-colors py-2 px-1 flex-auto text-center whitespace-nowrap">Ecommerce</a>
             <div class="w-px h-3 bg-white/10 shrink-0"></div>
-            <a href="correos" class="hover:text-white transition-colors py-2 w-full text-center">Correos</a>
+            <a href="correos" class="hover:text-white transition-colors py-2 px-1 flex-auto text-center whitespace-nowrap">Correos</a>
         </div>
 
     </nav>
