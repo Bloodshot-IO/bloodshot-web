@@ -4,7 +4,7 @@ $page_title = "Bloodshot | Sitios Web de Alto Rendimiento";
 $marquee_clientes = [
     'Botanero Limón',
     'Nue Lingerie',
-    'Boimsa',
+    'Altaveon',
     "Gabrielo's Pizza",
 ];
 
