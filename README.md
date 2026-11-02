@@ -78,4 +78,4 @@ Este repositorio sigue el SOP de despliegue continuo de Bloodshot.io.
 
 ## Clientes destacados
 
-Botanero Limón · Nue Lingerie · Boimsa · Gabrielo's Pizza
+Botanero Limón · Nue Lingerie · Altaveon · Gabrielo's Pizza
